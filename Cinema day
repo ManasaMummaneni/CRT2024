@@ -1,0 +1,20 @@
+Cinema day or not
+Print #include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int d,m,yr,n;
+    scanf("%d\n%d\n%d\n%d\n",&d,&m,&yr,&n);
+    if(n>50 && n<100)
+    {
+        printf("Cinema Day");
+    }
+    else
+    {
+        printf("Not a Cinema Day");
+    }
+    return 0;
+}
