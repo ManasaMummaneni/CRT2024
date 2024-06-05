@@ -1,0 +1,21 @@
+Positive or negative or zero
+#include <stdio.h>
+#include<math.h>
+
+int main()
+{
+   int a;
+   scanf("%d",&a);
+   if(a>0)
+   {
+       printf("%d is a positive number",a);
+   }
+   else
+   if(a<0)
+   {
+       printf("%d is a negetive number",a);
+   }
+   else
+   printf("Number is zero");
+    return 0;
+}
