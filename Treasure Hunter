@@ -1,0 +1,19 @@
+Treasure Hunter
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a,b,c;
+    scanf("%d%d%d\n",&a,&b,&c);
+    int x=a*b/100;
+    a=a-x;
+    printf("%d\n",x);
+    int y=a*c/100;
+    a=a-y;
+    printf("%d\n",y);
+    int z=a/3;
+    printf("%d\n",z);
+}
