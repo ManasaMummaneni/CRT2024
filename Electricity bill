@@ -1,0 +1,31 @@
+Electricity bill
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int u;
+    scanf("%d",&u);
+    int r=(u*0.5);
+    int r1=(u*0.65)+100;
+    int r2=(u*0.80)+200;
+    int r3=(u*1.25)+425;
+    if(u<=200)
+    {
+        printf("Rs.%d",r);
+    }
+    else if(u<=400)
+    {
+        printf("Rs.%d",r1);
+    }
+    else if(u<=600)
+    {
+        printf("Rs.%d",r2);
+    }
+    else
+    {
+        printf("Rs.%d",r3);
+    }
+        return 0;
+}
