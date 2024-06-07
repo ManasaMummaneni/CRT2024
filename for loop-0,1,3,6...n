@@ -1,0 +1,16 @@
+for loop
+Print the series 0,1,3,6....n
+#include <stdio.h>
+
+int main()
+{
+    int i,n,r;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        printf("%d ",r);
+        r=r+i;
+    }
+
+    return 0;
+}
