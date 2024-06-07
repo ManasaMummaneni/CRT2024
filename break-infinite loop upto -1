@@ -1,0 +1,15 @@
+break
+Read integer elements upto -1
+infinite loop
+#include <stdio.h>
+int main()
+{
+   int a,i;
+   for(;;)
+   {
+       scanf("%d",&a);
+       if(a==-1)
+       break;
+   }
+    return 0;
+}
