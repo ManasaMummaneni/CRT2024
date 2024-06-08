@@ -1,0 +1,17 @@
+Find area of rectangle using functions-with argument but no return value
+#include <stdio.h>
+    int area(int a,int b)
+    {
+        int r=a*b;
+        printf("%d",r);
+    }
+       
+    int main()
+    {
+     int l,b;
+     scanf("%d %d",&l,&b);
+     area(l,b);
+    }
+
+ 
+
