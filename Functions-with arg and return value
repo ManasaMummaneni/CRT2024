@@ -1,0 +1,17 @@
+Area of rectangle using functions-with arguments and with return value
+#include <stdio.h>
+    int area(int a,int b)
+    {
+        int r=a*b;
+        return r;
+    }
+       
+    int main()
+    {
+     int l,b;
+     scanf("%d %d",&l,&b);
+     int k=area(l,b);
+     printf("%d",k);
+    }
+
+ 
