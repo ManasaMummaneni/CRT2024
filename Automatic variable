@@ -1,0 +1,14 @@
+Automatic variable
+#include <stdio.h>
+void increment()
+{
+ int a=1;
+ printf("%d ",a);
+ a++;
+}
+int main()
+{
+ increment();
+ increment();
+ increment();
+}
