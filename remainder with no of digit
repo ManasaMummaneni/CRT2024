@@ -1,0 +1,22 @@
+Remainder of the value with the total number of digits in value
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+int count(int n)
+{
+    int rem,c=0,t=n;
+    while(n>0)
+    {
+        n=n/10;
+        c++;
+    }
+    rem=t%c;
+    return rem;
+}
+int main() {
+    int n;
+    scanf("%d",&n);
+    int k=count(n);
+    printf("%d",k);
+    return 0;
+}
