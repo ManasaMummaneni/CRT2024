@@ -1,0 +1,21 @@
+Read n elements in a array and print sum and average of the elements
+#include <stdio.h>
+
+int main()
+{
+   int n;
+   scanf("%d",&n);
+   int a[n],i;
+   for(i=0;i<n;i++)
+   {
+    scanf("%d",&a[i]);
+   }
+   int s=0;
+   for(i=0;i<n;i++)
+   {
+    s=s+a[i];
+   }
+   float avg=(float)s/n;
+   printf("%d %f",s,avg);
+return 0;
+}
